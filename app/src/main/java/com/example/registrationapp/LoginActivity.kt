@@ -34,12 +34,12 @@ class LoginActivity : AppCompatActivity() {
 
             if ((email == us.name) && (password == us.lastName)) {
                 Toast.makeText(this, "congratulations", Toast.LENGTH_SHORT).show()
-
+                val intent = Intent(this, RestourantActivity::class.java)
+                startActivity(intent)
             } else {
                 Toast.makeText(this, "nshavc tvyalnerov mard chka", Toast.LENGTH_SHORT).show()
             }
         }
-        val intent = Intent(this, RestourantActivity::class.java)
-        startActivity(intent)
+
     }
 }

@@ -20,7 +20,7 @@ class RestourantActivity : AppCompatActivity() {
         tab = findViewById(R.id.tabLayout)
         viewPager = findViewById(R.id.viewPager)
 
-        val fragmentList = listOf(ClientFragment(), FoodMenuFragment())
+        val fragmentList = listOf( FoodMenuFragment(),ClientFragment())
         viewPager?.apply {
             adapter = object : FragmentStateAdapter(this@RestourantActivity) {
                 override fun getItemCount(): Int = fragmentList.size
