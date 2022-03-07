@@ -1,5 +1,6 @@
 package com.example.registrationapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -38,6 +39,7 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "nshavc tvyalnerov mard chka", Toast.LENGTH_SHORT).show()
             }
         }
-
+        val intent = Intent(this, RestourantActivity::class.java)
+        startActivity(intent)
     }
 }

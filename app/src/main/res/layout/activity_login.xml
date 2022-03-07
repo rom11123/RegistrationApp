@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="50dp"
     android:gravity="center"
-    android:background="@drawable/fon2"
+    android:background="@drawable/menuu"
 
     tools:context=".LoginActivity">
 
@@ -37,7 +37,7 @@
         android:text="enter"
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:backgroundTint="#0789AA"/>
+        android:backgroundTint="#FF9800"/>
 
 
 
