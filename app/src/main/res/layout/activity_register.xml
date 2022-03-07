@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fon2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:outlineSpotShadowColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="password"
+        android:textColorHint="@color/black"
+        android:outlineSpotShadowColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:outlineSpotShadowColor="@color/black"/>
+
+    <Button
+        android:id="@+id/edOk"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0789AA"
+        android:text="ok" />
+
+
+</LinearLayout>
