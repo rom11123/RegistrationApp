@@ -45,5 +45,6 @@ class Register : AppCompatActivity() {
             Toast.makeText(this,"shnorhavorum enq",Toast.LENGTH_SHORT).show()
         }
 
+
     }
 }

@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         sign = findViewById(R.id.sign)
         signUp = findViewById(R.id.signUp)
 
@@ -26,5 +28,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,Register::class.java)
             startActivity(intent)
         }
+
+
+
+
     }
 }

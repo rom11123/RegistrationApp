@@ -32,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
         val password = logPassword.text.toString()
         for (us in Users.users.values) {
 
-            if ((email == us.name) && (password == us.lastName)) {
+            if ((email == us.email) && (password == us.password)) {
                 Toast.makeText(this, "congratulations", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, RestourantActivity::class.java)
                 startActivity(intent)
